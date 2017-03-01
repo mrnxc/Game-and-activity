@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>     
+    <title>Switch Activity</title>
+    <script language="javascript" type="text/javascript">
+    <!--
+
+      var status = true
+      while(status){
+      var grade = prompt();
+      var grade_selected;
+      var grade_equal;
+      switch (true) {
+
+        case (grade <= 100 && grade >= 96):
+          grade_selected = 1.00;
+          grade_equal = "A+";
+          document.write("Grade selected: " + grade_selected+ "</br>");
+          document.write("Grade equal: " + grade_equal+ "</br>");
+          status = isNAN(grade);
+          break;
+
+        case (grade <= 95 && grade >= 91):
+          grade_selected = 1.25;
+          grade_equal = "A";
+          document.write("Grade selected: " + grade_selected + "</br>");
+          document.write("Grade equal: " + grade_equal + "</br>");
+          status = isNAN(grade);
+          break;
+
+        case (grade <= 90 && grade >= 86):
+          grade_selected = 1.50;
+          grade_equal = "A-";
+          document.write("Grade selected: " + grade_selected + "</br>");
+          document.write("Grade equal: " + grade_equal + "</br>");
+          status = isNAN(grade);
+          break;
+
+        case (grade <= 85 && grade >= 81):
+          grade_selected = 1.75;
+          grade_equal = "B+";
+          document.write("Grade selected: " + grade_selected + "</br>");
+          document.write("Grade equal: " + grade_equal + "</br>");
+          status = isNAN(grade);
+          break;
+
+        case (grade <= 80 && grade >= 75):
+          grade_selected = 2.00;
+          grade_equal = "B";
+          document.write("grade selected: " + grade_selected + "</br>");
+          document.write("Grade equal: " + grade_equal + "</br>");
+          status = isNAN(grade);
+          break;
+
+        case (grade <= 74 && grade >= 69):
+          grade_selected = 2.25;
+          grade_equal = "B-";
+          document.write("Grade selected: " + grade_selected + "</br>");
+          document.write("Grade equal: " + grade_equal + "</br>");
+          status = isNAN(grade);
+          break;
+
+        case (grade <= 68 && grade >= 63):
+          grade_selected = 2.50;
+          grade_equal = "C+";
+          document.write("Grade selected:  " + grade_selected + "</br>");
+          document.write("Grade equal: " + grade_equal + "</br>");
+          status = isNAN(grade);
+          break;
+
+        case (grade <= 62 && grade >= 57):
+         grade_selected = 2.75;
+         grade_equal = "C";
+         document.write("Grade selected:  " + grade_selected + "</br>");
+         document.write("Grade equal: " + grade_equal + "</br>");
+         status = isNAN(grade);
+         break;
+
+        case (grade <= 56 && grade >= 50):
+         grade_selected = 3.00;
+         grade_input = "C-";
+         document.write("Grade selected:  " + grade_selected + "</br>");
+         document.write("Grade equal: " + grade_equal + "</br>");
+         status = isNAN(grade);
+         break;
+
+        case (grade <= 49 && grade >= 0):
+         grade_selected = 5.00;
+         grade_equal = "F";
+         document.write("Grade selected:  " + grade_selected + "</br>");
+         document.write("Grade equal: " + grade_equal + "</br>");
+         status = isNAN(grade);
+        break;
+
+        default:
+         alert("Re-enter the correct grade");
+         status = true;
+      }
+
+      }
+      //setTimeout(function() {
+        //window.location.reload(1);
+      //}, 5000);
+      -->
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>
